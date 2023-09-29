@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48sp"
+    android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+    android:clickable="true"
+    android:contentDescription="add to google wallet"
+    android:focusable="true">
+
+    <ImageView
+        android:layout_width="227dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center"
+        android:duplicateParentState="true"
+        android:src="@drawable/common_google_signin_btn_icon_dark" />
+</FrameLayout>
